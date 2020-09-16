@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ansible-molecule-vagrant-linux"
+      include_role:
+        name: "ansible-molecule-vagrant-linux"
